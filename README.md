@@ -10,5 +10,5 @@
 * Data augmentation is implemented for regularization.
 * Accuracy of 93% is achieved on validation and test datasets.
 
-* Source: https://www.tensorflow.org/datasets/catalog/colorectal_histology
+* Dataset Source: https://www.tensorflow.org/datasets/catalog/colorectal_histology
 * Dataset homepage: https://zenodo.org/record/53169#.XGZemKwzbmG
