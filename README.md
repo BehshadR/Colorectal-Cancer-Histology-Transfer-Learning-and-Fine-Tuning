@@ -6,6 +6,8 @@
 * Each example is a 150 x 150 x 3 RGB image of one of 8 classes.
 * The class labels are: ("tumor", "stroma", "complex", "lympho", "debris", "mucosa", "adipose", "empty")
 * The state-of-the-art CNN, ResNet50V2, is used as base model.
+* The last 10 layers of the base model are unfreezed for fine-tuning.
+* Data augmentation is implemented for regularization.
 * Accuracy of 93% is achieved on validation and test datasets.
 
 * Source: https://www.tensorflow.org/datasets/catalog/colorectal_histology
