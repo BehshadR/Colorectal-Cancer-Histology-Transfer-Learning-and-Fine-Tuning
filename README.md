@@ -8,7 +8,7 @@
 * The state-of-the-art CNN, ResNet50V2, is used as base model.
 * The last 10 layers of the base model are unfreezed for fine-tuning.
 * Data augmentation is implemented for regularization.
-* Accuracy of 93% is achieved on validation and test datasets.
+* Accuracy of 94% is achieved on validation and test datasets.
 
 * Dataset Source: https://www.tensorflow.org/datasets/catalog/colorectal_histology
 * Dataset homepage: https://zenodo.org/record/53169#.XGZemKwzbmG
